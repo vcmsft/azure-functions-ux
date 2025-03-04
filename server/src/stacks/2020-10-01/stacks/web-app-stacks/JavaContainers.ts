@@ -827,6 +827,7 @@ const getJavaContainersStack: (useIsoDateFormat: boolean) => WebAppStack = (useI
                 javaContainer: 'TOMCAT',
                 javaContainerVersion: '11.0',
                 isAutoUpdate: true,
+                isHidden: true
               },
               linuxContainerSettings: {
                 java21Runtime: 'TOMCAT|11.0-java21',
