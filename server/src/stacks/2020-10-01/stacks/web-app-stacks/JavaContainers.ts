@@ -434,12 +434,12 @@ const getJavaContainersStack: (useIsoDateFormat: boolean) => WebAppStack = (useI
             },
           },
           {
-            displayText: 'Red Hat JBoss EAP 8.0 update 1',
-            value: '8.0.1',
+            displayText: 'Red Hat JBoss EAP 8.0 update 3',
+            value: '8.0.3',
             stackSettings: {
               linuxContainerSettings: {
-                java11Runtime: 'JBOSSEAP|8.0.1-java11',
-                java17Runtime: 'JBOSSEAP|8.0.1-java17',
+                java11Runtime: 'JBOSSEAP|8.0.3-java11',
+                java17Runtime: 'JBOSSEAP|8.0.3-java17',
               }
             }
           },
@@ -454,12 +454,12 @@ const getJavaContainersStack: (useIsoDateFormat: boolean) => WebAppStack = (useI
             }
           },
           {
-            displayText: 'Red Hat JBoss EAP 8.0 update 3',
-            value: '8.0.3',
+            displayText: 'Red Hat JBoss EAP 8.0 update 1',
+            value: '8.0.1',
             stackSettings: {
               linuxContainerSettings: {
-                java11Runtime: 'JBOSSEAP|8.0.3-java11',
-                java17Runtime: 'JBOSSEAP|8.0.3-java17',
+                java11Runtime: 'JBOSSEAP|8.0.1-java11',
+                java17Runtime: 'JBOSSEAP|8.0.1-java17',
               }
             }
           },
@@ -481,12 +481,12 @@ const getJavaContainersStack: (useIsoDateFormat: boolean) => WebAppStack = (useI
             },
           },
           {
-            displayText: 'Red Hat JBoss EAP 8 update 1 BYO License',
-            value: '8.0.1',
+            displayText: 'Red Hat JBoss EAP 8 update 3 BYO License',
+            value: '8.0.3',
             stackSettings: {
               linuxContainerSettings: {
-                java11Runtime: 'JBOSSEAP|8.0.1-java11_byol',
-                java17Runtime: 'JBOSSEAP|8.0.1-java17_byol',
+                java11Runtime: 'JBOSSEAP|8.0.3-java11_byol',
+                java17Runtime: 'JBOSSEAP|8.0.3-java17_byol',
               }
             }
           },
@@ -502,11 +502,11 @@ const getJavaContainersStack: (useIsoDateFormat: boolean) => WebAppStack = (useI
           },
           {
             displayText: 'Red Hat JBoss EAP 8 update 1 BYO License',
-            value: '8.0.3',
+            value: '8.0.1',
             stackSettings: {
               linuxContainerSettings: {
-                java11Runtime: 'JBOSSEAP|8.0.3-java11_byol',
-                java17Runtime: 'JBOSSEAP|8.0.3-java17_byol',
+                java11Runtime: 'JBOSSEAP|8.0.1-java11_byol',
+                java17Runtime: 'JBOSSEAP|8.0.1-java17_byol',
               }
             }
           },
